@@ -42,7 +42,7 @@ static const struct
     Heap* (*clone) (Heap *heap);
     void (*reverse) (Heap *heap);
     void (*print) (Heap *heap);
-} const heap = {
+} heap = {
     .create = heap_create,
     .destroy = heap_destroy,
     .push = heap_push,
